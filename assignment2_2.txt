@@ -1,0 +1,8 @@
+(1) Login to the VM
+(2) Open the terminal
+(3) Navigate to Desktop from command prompt (cd /home/acadgild/Desktop)
+(4) Create a file with name "max-temp.txt" with dummy records.
+(5) hdfs dfs -put max-temp.txt /usr/acadgild/hadoop/
+(6) Create a new group (sudo groupadd ashimbigdata)
+(7) Create a new user (sudo useradd ashimkumar)
+(8) hdfs dfs -chown ashimkumar:ashimbigdata /usr/acadgild/hadoop/max-temp.txt
